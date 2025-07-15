@@ -1,0 +1,37 @@
+.boss_btn_event{
+  background-color: transparent;
+  cursor: pointer;
+  width: 20%;
+  padding: 8px;
+
+  &.target{
+    background-color: rgba(94, 92, 92, 0.5);
+  }
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  &.created{
+    background-color: rgba(160, 241, 93);
+  }
+  &.created_target{
+    background-color: rgba(160, 241, 93, 0.5);
+  }
+}
+
+
+.info_div{
+  display: flex;
+  height:100%;
+  width: 100%;
+  border: 1px solid rgba(0, 7, 0, 0.99);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
