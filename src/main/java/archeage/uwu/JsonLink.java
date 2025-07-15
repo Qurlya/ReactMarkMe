@@ -9,6 +9,7 @@ public class JsonLink {
 
     public static String toJson(RequestBoss req) {
         try {
+            System.out.println(12);
             return mapper.writeValueAsString(req);
         } catch (JsonProcessingException e) {
             throw new RuntimeException("JSON serialization error", e);
